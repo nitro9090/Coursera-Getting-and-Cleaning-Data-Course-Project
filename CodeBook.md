@@ -4,7 +4,7 @@ Code Book
 by Mike
 
 The study design
-==============
+-------------
 
 All data was collected from 
 
@@ -17,21 +17,22 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 
 Variables
-grouping - whether a subject was part of the training set or test data set
-subjects - the subject number
-activities - the corresponding activity of the subject when the data was taken
+-----------
+* grouping - whether a subject was part of the training set or test data set
+* subjects - the subject number
+* activities - the corresponding activity of the subject when the data was taken
 
 The other variables are the average values partitioned by grouping, subjects and activities from the features_info.txt file in the UCI HAR dataset and are identified therein. 
 
 The data
-==========
+-------------
 
 The data looks at the average mean and std dev accelerometer and gyroscopic data values from the "Human Activity Recognition Using Smartphones Dataset" partitioned by grouping subjects and activities
 
 The data is in a single data table with each variable in a single column and each observation in a single row following tidy principles.
 
 Transformations
-===========
+-------------
 
 1. The X_train, y_train, subject_train and test counterparts are loaded as tables along with the activity labels and features
 2. A new column is added to identify if the subject is in the training or test group
@@ -41,5 +42,5 @@ Transformations
 
 
 Additional Comments
-===========
+-------------
 The code is commented inline, so if anything here is unclear the code explains everything step-by-step.
