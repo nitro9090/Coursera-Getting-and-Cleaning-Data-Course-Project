@@ -1,6 +1,8 @@
 Code Book 
 ===========
 
+by Mike
+
 The study design
 ==============
 
@@ -36,3 +38,8 @@ Transformations
 3. All of the data is combined into a single table to form a tidy dataset(using rbind and cbind), during which column names are given and the activity labels are changed from numbers to descriptor values
 4. The tidy dataset is then condensed down to only identifiers, mean and standard deviation values.
 5. The condensed data is grouped by group, subject number, and activities and the mean of the mean and standard deviation values of the tidy data set is taken, to give the final tidy dataset
+
+
+Additional Comments
+===========
+The code is commented inline, so if anything here is unclear the code explains everything step-by-step.
