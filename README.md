@@ -1,4 +1,5 @@
 Coursera - Getting and Cleaning Data Course Project
+------------------
 
 This file loads up a function that takes the "Human Activity Recognition Using Smartphones Dataset" by Jorge L. and turns it into a tidy dataset consisting of the mean of the mean accelerometer and gyroscope data for each group, subject number and subject activity.
 
